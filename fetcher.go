@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strings"
 
-	html "code.google.com/p/go.net/html"
-	atom "code.google.com/p/go.net/html/atom"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/cihub/seelog"
+	"golang.org/x/net/html"
+	"golang.org/x/net/html/atom"
 )
 
 var (
